@@ -16,10 +16,3 @@ Simplified cyberpunk portfolio for Mohamed Ali, Game Developer & Creative Techno
 - **Software / Games & VR:** Unity games, VR builds and software systems.
 - **Hardware / Interactive Tech:** Arduino and physical-computing projects.
 
-## Updating an existing V2 install
-
-If you already downloaded the six V2 video packs, you do **not** need to download the videos again. Extract this updated core package over the same portfolio folder and keep the existing `assets/videos/` directory.
-
-## GitHub Pages
-
-Push the folder contents to a GitHub repository, then enable Pages from the repository settings using the `main` branch and `/ (root)`.
