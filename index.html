@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#06070b" />
+  <meta name="description" content="Mohamed Ali — Game Developer & Creative Technologist. Unity, C#, VR, gameplay systems and interactive experiences." />
+  <title>Mohamed Ali — Game Developer & Creative Technologist</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="fx-grid" aria-hidden="true"></div>
+  <div class="fx-glow" data-glow aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Mohamed Ali home">MOHAMED ALI</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+      <span></span><span></span><span class="sr-only">Toggle navigation</span>
+    </button>
+    <nav id="site-nav" class="site-nav" data-nav>
+      <a href="#software">Software</a>
+      <a href="#hardware">Hardware</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <p class="hero-role reveal">GAME DEVELOPER &amp; CREATIVE TECHNOLOGIST</p>
+      <h1 class="hero-name glitch reveal" data-text="MOHAMED ALI">MOHAMED ALI</h1>
+      <p class="hero-stack reveal">Unity • Arduino • VR • Interactive Experiences</p>
+      <p class="hero-intro reveal">I build Unity games, VR experiences and real-time interactive systems — with hardware as a secondary tool when the experience needs a physical layer.</p>
+      <div class="hero-actions reveal">
+        <a class="button button-primary" href="#software">VIEW MY WORK ↘</a>
+        <a class="button button-ghost" href="mailto:mohamed.ali.maher14@gmail.com">CONTACT ↗</a>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>UNITY</span><i>◆</i><span>C#</span><i>◆</i><span>GAMEPLAY</span><i>◆</i><span>VR / QUEST</span><i>◆</i><span>PROTOTYPING</span><i>◆</i><span>INTERACTIVE SYSTEMS</span><i>◆</i>
+        <span>UNITY</span><i>◆</i><span>C#</span><i>◆</i><span>GAMEPLAY</span><i>◆</i><span>VR / QUEST</span><i>◆</i><span>PROTOTYPING</span><i>◆</i><span>INTERACTIVE SYSTEMS</span><i>◆</i>
+      </div>
+    </div>
+
+    <section id="software" class="section-shell section-gap">
+      <div class="section-heading reveal">
+        <h2>Software<br><span>Games &amp; VR</span></h2>
+        <p>Unity gameplay, VR mechanics, player systems, prototypes and configurable game experiences.</p>
+      </div>
+      <div class="project-grid software-grid" id="software-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="hardware" class="hardware-zone section-gap">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <h2>Hardware<br><span>Interactive Tech</span></h2>
+          <p>Arduino, sensors and physical controls used as a secondary layer to connect real-world actions to digital experiences.</p>
+        </div>
+        <div class="project-grid hardware-grid" id="hardware-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-shell section-gap">
+      <div class="section-heading reveal">
+        <h2>About<br><span>Mohamed</span></h2>
+      </div>
+      <div class="about-copy reveal">
+        <p>I’m Mohamed Ali, a Game Developer and Creative Technologist focused on Unity gameplay, VR experiences and real-time interactive systems.</p>
+        <p>Most of my work starts in software: building mechanics, player controllers, scoring systems, prototypes, promotional games and immersive Quest experiences in Unity and C#.</p>
+        <p>I also use Arduino, C++ and sensors when a project needs a physical layer — turning bikes, buttons and proximity sensors into game controls or interactive triggers.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-shell section-gap">
+      <div class="contact-card reveal">
+        <h2>Let’s build something <span>playable.</span></h2>
+        <p>Available for game development, VR experiences, Unity systems and interactive technology projects.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:mohamed.ali.maher14@gmail.com">SEND MESSAGE ↗</a>
+          <a class="button button-ghost" href="https://www.linkedin.com/in/mohamed-ali-306894123/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+        </div>
+        <a class="contact-email" href="mailto:mohamed.ali.maher14@gmail.com">mohamed.ali.maher14@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>© <span id="year"></span> MOHAMED ALI</span>
+    <span>UNITY · VR · INTERACTIVE TECHNOLOGY</span>
+  </footer>
+
+  <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title">
+    <div class="modal-shell">
+      <div class="modal-topbar">
+        <span>PROJECT VIEW</span>
+        <button class="modal-close" type="button" aria-label="Close project" data-modal-close>×</button>
+      </div>
+      <div class="modal-media"><video id="modal-video" controls playsinline preload="metadata"></video></div>
+      <div class="modal-body">
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <div class="modal-meta" id="modal-meta"></div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
