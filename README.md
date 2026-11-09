@@ -1,18 +1,11 @@
-# Mohamed Ali — Portfolio
+# Mohamed Ali — ArtStudio Portfolio Version
 
-Simplified cyberpunk portfolio for Mohamed Ali, Game Developer & Creative Technologist.
+This build uses the supplied ArtStudio template styling and keeps the template attribution required by its license.
 
-## Structure
+## Replace your current core
+Copy these files over your existing portfolio folder. Keep your existing `assets/videos/` folder.
 
-- `index.html`
-- `404.html`
-- `assets/css/style.css`
-- `assets/js/app.js`
-- `assets/thumbnails/`
-- `assets/videos/01.mp4` through `18.mp4`
+Expected videos:
+- `assets/videos/01.mp4` through `assets/videos/21.mp4`
 
-## Video sections
-
-- **Software / Games & VR:** Unity games, VR builds and software systems.
-- **Hardware / Interactive Tech:** Arduino and physical-computing projects.
-
+Projects are configured in `assets/js/app.js`.
